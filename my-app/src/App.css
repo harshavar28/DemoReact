@@ -46,14 +46,3 @@ button:last-of-type {
   background-color: red; 
   color: white;
 }
-nav {
-  display: flex;
-  flex-direction: column; 
-  margin: 10px;
-}
-
-nav a {
-  text-decoration: none;
-  color: black;
-  margin-bottom: 5px;
-}

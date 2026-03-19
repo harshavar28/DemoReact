@@ -5,7 +5,7 @@ import Pending from "./components/Pending";
 import Approve from "./components/Approve";
 import Reject from "./components/Reject";
 import { users } from "./dummy";
-import '../App.css';
+import './App.css';
 
 function App() {
   const [userli, setUserli] = useState(users);
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div>
         <h1>Admin Panel</h1>
-        <nav>
+        <nav style={{ display: "flex", gap: "20px", padding: "10px", borderBottom: "1px solid black" }}>
           <Link to="/">Dashboard</Link> 
           <Link to="/pending">Pending</Link>
           <Link to="/approved">Approved</Link> 

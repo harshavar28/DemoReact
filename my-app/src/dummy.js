@@ -4,14 +4,14 @@ export const users = [
     name: "Amit Sharma",
     email: "amit.sharma@example.com",
     department: "IT",
-    status: "Rejectd"
+    status: "pending"
   },
   {
     id: 2,
     name: "Priya Reddy",
     email: "priya.reddy@example.com",
     department: "HR",
-    status: "Approved"
+    status: "pending"
   },
   {
     id: 3,
@@ -39,14 +39,14 @@ export const users = [
     name: "Neha Gupta",
     email: "neha.gupta@example.com",
     department: "Sales",
-    status: "Approved"
+    status: "pending"
   },
   {
     id: 7,
     name: "Arjun Patel",
     email: "arjun.patel@example.com",
     department: "IT",
-    status: "Rejectd"
+    status: "pending"
   },
   {
     id: 8,
