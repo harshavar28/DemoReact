@@ -1,0 +1,59 @@
+div {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h2 {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: white;
+  margin-bottom: 8px;
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
+
+span {
+  margin-right: 10px;
+}
+
+button {
+  margin-left: 5px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:first-of-type {
+  background-color: green; 
+  color: white;
+}
+
+button:last-of-type {
+  background-color: red; 
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: column; 
+  margin: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  margin-bottom: 5px;
+}
